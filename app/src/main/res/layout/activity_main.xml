@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@android:color/white"
+    tools:context="gr.pcbugs.www.pcbugs3.MainActivity">
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/small1"
+        android:padding="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="300dp"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:id="@+id/photo_image_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/place"
+        android:padding="0dp"
+        android:clickable="false"
+        android:contextClickable="false"
+
+        android:layout_marginBottom="181dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false" />
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact:"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/photo_image_view2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/title_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info@pcbugs.gr"
+        android:autoLink="email"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/black"
+
+        android:textStyle="normal"
+        android:textSize="29dp"
+        android:layout_alignBottom="@+id/photo_image_view2"
+        android:layout_toRightOf="@+id/title_text_view"
+        android:layout_toEndOf="@+id/title_text_view"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="10dp"
+
+
+        android:layout_marginStart="11dp" />
+
+    <ImageView
+
+        android:src="@drawable/phone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="280dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="20dp"
+        android:id="@+id/imageView1" />
+    <ImageView
+
+        android:src="@drawable/mail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="280dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="20dp" />
+    <TextView
+        android:id="@+id/title_text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2104101567"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:layout_below="@+id/title_text_view"
+        android:layout_alignRight="@+id/title_text_view2"
+        android:layout_alignEnd="@+id/title_text_view2"
+        android:layout_marginRight="41dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginTop="40dp"
+        android:textSize="27dp" />
+    <ImageView
+        android:id="@+id/photo_image_view4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/facebook"
+
+
+        android:layout_alignWithParentIfMissing="false"
+
+        android:layout_below="@+id/title_text_view3"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignEnd="@+id/imageView1"
+
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:id="@+id/title_text_view5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pcbugs.gr"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/title_text_view3"
+        android:layout_alignEnd="@+id/title_text_view3"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:textSize="30dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        
+        android:clickable="true"
+        android:contextClickable="true" />
+</RelativeLayout>
